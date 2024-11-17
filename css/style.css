@@ -304,6 +304,7 @@ body {
 
 .contact .content {
   background-color: #89c0ae;
+  margin-left: 5rem;
   width: 40%;
   display: inline-block;
   border-radius: 10px;
@@ -340,8 +341,11 @@ body {
 }
 
 .contact .c-sosmed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: absolute;
-  width: 7rem;
+  width: 9rem;
   min-height: 100vh;
   background-color: #d1e9b1;
   border-radius: 15px;
@@ -349,7 +353,6 @@ body {
 }
 
 .contact .c-sosmed .item {
-  margin: 8rem 0;
   font-size: 13px;
 }
 
@@ -474,7 +477,7 @@ body {
   }
 
   .contact .content {
-    width: 50%;
+    width: 60%;
   }
 
   .blog {
@@ -514,7 +517,8 @@ body {
   }
 
   .contact .content {
-    width: 80%;
+    width: 60%;
+    padding: 1rem 2rem;
   }
 
   .sidebar .imag img {
