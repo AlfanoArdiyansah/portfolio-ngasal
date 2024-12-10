@@ -22,14 +22,14 @@ body {
 /* navbar */
 .navbar {
   display: flex;
-  padding: 1.3rem 7%;
+  padding: 0.8rem 7%;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   justify-content: space-between;
   align-items: center;
-  background-color: rgba(190, 206, 214, 0.9);
+  background-color: rgba(127, 192, 199, 0.9);
   z-index: 2;
 }
 
@@ -40,18 +40,18 @@ body {
 
 .navbar .nav-logo span {
   font-weight: 500;
+  color: white;
 }
 
 .navbar .nav-logo {
   font-family: "Afacad Flux", sans-serif;
   font-size: 2rem;
   font-weight: 900;
-  color: #fff;
+  color: rgb(248, 109, 109);
   font-style: italic;
-  background: linear-gradient(#40c9ff, #e81cff);
-  background-clip: text;
-  color: transparent;
+  letter-spacing: 1px;
   display: flex;
+  text-shadow: 1px 1px 5px black;
 }
 
 .navbar .nav-item a {
@@ -59,11 +59,12 @@ body {
   display: inline-block;
   margin: 0 1rem;
   font-size: 14px;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 0.5px black;
+  transition: 0.1s;
 }
 
 .navbar .nav-item a:hover {
-  color: #9eada7;
+  opacity: 0.3;
 }
 
 .navbar .nav-extra a {
